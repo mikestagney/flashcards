@@ -1,5 +1,5 @@
 # Flashcards
-Command line app to create, save/load digital flashcards and use them for quizzes.
+Command line app to create, save and load digital flashcards and use them for quizzes.
 
 ## Things learned
 
@@ -9,15 +9,15 @@ First app created that logs all input and output
 
 User options:
 
-* add a card
-* remove a card
-* load cards from file
-* save cards to file
-* ask for definitions of some random cards
-* save the application log to the given file
-* print the term or terms that the user makes most mistakes with
-* erase the mistake count for all cards
-* exit the program
+* Add a card. Duplicate cards are not allowed.
+* Remove a card.
+* Load cards from file. Adds to the current cards in memory.
+* Save cards to file.
+* Ask for definitions of some random cards. User chooses the number of cards and the app tracks the mistakes for each card.
+* Save the application log to file.
+* Print the card or cards that the user makes most mistakes
+* Erase the mistake count for all cards.
+* Exit the app.
 
 The directory contains 2 files: 
 
@@ -30,7 +30,7 @@ Ninth project created for JetBrains Academy Java Developer course - hard level p
 
 The app can run with or without command line arguments.
 
-parses 2 arguments: -import, -export 
+Parses 2 arguments: -import, -export 
   
 -import: takes the file name to read the initial card set from the external file and prints the message "n cards have been loaded."
 
