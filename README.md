@@ -24,4 +24,12 @@ parses 2 arguments: -import, -export
 
 -export: takes the file name to write all cards that are in the program memory into the file after the user has entered exit. The last line of the output is "n cards have been saved."
 
+#### Run arguments examples
+
+java Flashcards -export animals.txt
+
+java Flashcards -import words13june.txt -export words14june.txt
+
+java Flashcards -export vocab.txt -import vocab.txt 
+
 ### Sample input and output:
